@@ -24,7 +24,11 @@ class App extends Component{
             Hi {this.state.name}!
           </p>
           <button onClick={() => {
-            this.setState({name: "Stone"})
+            this.setState((state, props)=>{
+              return {
+                name: "Stone"
+              }
+            })
           }}>
             Change Name
           </button>
