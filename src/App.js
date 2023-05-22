@@ -13,6 +13,7 @@ class App extends Component{
         {name: "Bwak"},
         {name: "Frida"},
         {name: "Shumi"},
+        {name: "Momo"}
       ]
     };
   }
